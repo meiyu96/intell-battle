@@ -5,9 +5,9 @@ import com.dxtwangxiao.intellbattle.entity.Subject;
 import java.util.List;
 
 /**
- * @Auther: miaoyu
- * @Date: 2018/6/13 10:30
- * @Description: 学科服务
+ * 学科服务
+ * @author miaoyu
+ * @date 2018/6/13 10:30
  */
 public interface SubjectService {
     /**

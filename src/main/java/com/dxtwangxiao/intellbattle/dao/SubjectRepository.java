@@ -9,9 +9,9 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * @Auther: miaoyu
- * @Date: 2018/6/13 10:27
- * @Description: 学科数据访问
+ * 学科数据访问
+ * @author miaoyu
+ * @date 2018/6/13 10:27
  */
 @Repository
 public interface SubjectRepository extends CrudRepository<Subject,String> {

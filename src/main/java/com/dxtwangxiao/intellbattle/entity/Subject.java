@@ -5,9 +5,9 @@ import lombok.Data;
 import javax.persistence.*;
 
 /**
- * @Auther: miaoyu
- * @Date: 2018/6/13 09:31
- * @Description: 学科实体类
+ * 学科实体类
+ * @author miaoyu
+ * @date 2018/6/13 09:31
  */
 @Entity
 @Table(name = "t_common_subject")

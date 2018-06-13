@@ -10,9 +10,9 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * @Auther: miaoyu
- * @Date: 2018/6/13 10:38
- * @Description: 学科服务实现
+ * 学科服务实现
+ * @author miaoyu
+ * @date 2018/6/13 10:38
  */
 @Service
 public class SubjectServiceImpl implements SubjectService {
