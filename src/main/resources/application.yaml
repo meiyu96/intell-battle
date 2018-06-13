@@ -1,28 +1,14 @@
-logging:
-    level:
-        org:
-            springframework: debug
-            thymeleaf: ERROR
-server:
-    port: 8080
 spring:
     thymeleaf:
         cache: false
     datasource:
         driverClassName: com.mysql.jdbc.Driver
-        url: jdbc:mysql://127.0.0.1:3306/intell_battle
+        url: jdbc:mysql://120.77.148.123:3306/intell_battle
         password: admin
         username: root
-        initialSize: 5
-        minIdle: 5
-        maxActive: 50
-    #JPA Configuration:
     jpa:
         database: MYSQL
-        # Show or not log for each sql query
         show-sql: true
         generate-ddl: true
-        # Hibernate ddl auto (create, create-drop, update)
         hibernate:
             ddl-auto: update
-#spring.mvc.view.prefix: /WEB-INF/view/
