@@ -8,11 +8,17 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * 学点充值表
+ */
 @Entity
 @Table(name = "t_rhg_learning_point_record")
 @Data
 public class LearningPointRecord {
 
+    /**
+     * 学点充值
+     */
     @Id
     @Column(name = "id",length = 36,nullable = false)
     private String id;

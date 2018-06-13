@@ -15,6 +15,7 @@ public class Coupon {
     /**
      * 主键，显示在UI上展示给用户
      */
+    @Id
     @Column(name = "coupon_no", length = 36)
     private String couponNo;
 
