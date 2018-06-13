@@ -10,7 +10,7 @@ import javax.persistence.*;
  * @date 2018/6/13 10:04
  */
 @Entity
-@Table(name = "t_common_multiple_choice")
+@Table(name = "t_com_multiple_choice")
 @Data
 public class MultipleChoice {
     /**
