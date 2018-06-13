@@ -41,4 +41,5 @@ public interface SubjectService {
      * @return 科目对象
      */
     Subject findSubjectBySubjectName(String name);
+
 }
