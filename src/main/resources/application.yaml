@@ -1,10 +1,17 @@
+logging:
+    level:
+        org:
+            springframework: debug
+            thymeleaf: ERROR
+server:
+    port: 8080
 spring:
     thymeleaf:
         cache: false
     datasource:
         driverClassName: com.mysql.jdbc.Driver
-        url: jdbc:mysql://127.0.0.1:3306/intell_battle?useSSL=false&useUnicode=true&characterEncoding=utf-8
-        password: 123456
+        url: jdbc:mysql://127.0.0.1:3306/intell_battle
+        password: admin
         username: root
         initialSize: 5
         minIdle: 5
