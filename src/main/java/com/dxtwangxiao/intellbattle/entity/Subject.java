@@ -10,7 +10,7 @@ import javax.persistence.*;
  * @date 2018/6/13 09:31
  */
 @Entity
-@Table(name = "t_common_subject")
+@Table(name = "t_com_subject")
 @Data
 public class Subject {
     /**

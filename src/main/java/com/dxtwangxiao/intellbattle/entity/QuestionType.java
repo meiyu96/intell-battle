@@ -13,7 +13,7 @@ import javax.persistence.Table;
  * @date 2018/6/13 15:13
  */
 @Entity
-@Table(name = "t_common_question_type")
+@Table(name = "t_com_question_type")
 @Data
 public class QuestionType {
     /**
